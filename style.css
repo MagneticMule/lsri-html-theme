@@ -1,0 +1,136 @@
+:root {
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: "Helvetica Nue", Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a,
+li {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background: honeydew;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+
+.fullscreen-image-container {
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7)),
+    url("./images/2012-12-14\ 20.12.49.jpg");
+  /* display: flex; */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 32px solid rgba(0, 0, 0, 0.7);
+  /* margin-top: 120px; */
+}
+
+.hero-text {
+  padding-top: 24rem;
+  color: white;
+  font-size: 5rem;
+  line-height: 6rem;
+  text-shadow: 1px 1px 32px black;
+  /* border-bottom: 1px solisd white; */
+}
+
+.section {
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}
+
+.intro {
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+.logo {
+  height: 40px;
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  display: inline-block;
+}
+
+.site-mast {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-main {
+  width: 100%;
+  text-align: right;
+  align-self: center;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.nav-item {
+  display: inline-block;
+  /* padding: 10px; */
+  margin: 10px;
+  height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+/* .nav-item::after {
+  margin-top: -10%;
+  margin-left: -10%;
+  display: block;
+  content: "";
+  height: 100%;
+  border-right: 1px solid rgba(.5, 0, 0, 0.5);
+} */
+
+.nav-item > a {
+  color: whitesmoke;
+  font-weight: 400;
+  padding: 10px 0 10px 0;
+  border-bottom: 0px solid white;
+  transition: border-bottom 0.15s ease-in-out;
+}
+
+.nav-item > a:hover {
+  color: white;
+  border-bottom: 4px solid white;
+  transition: border-bottom 0.15s ease-in-out;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  border-bottom: 2px solid white;
+  border-radius: 5%;
+}
+
+.background-blue {
+  background-color: rgba(10, 10, 200, 0.4);
+}
